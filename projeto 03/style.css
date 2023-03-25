@@ -6,6 +6,7 @@ body {
 
 .page {
     width: 1350px;
+    height: 650px;
     margin: 0px auto;
     border: 1px solid red;
     }
@@ -80,11 +81,16 @@ p span {
 .line {
     border: 1px solid #00BFA6;
     width: 568px;
-    margin: 17px auto 10px
+    margin: 50px auto 27px;
+    align-items: center;
+    
 }
 
 footer {
     border: 1px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
     
 }
 
@@ -95,6 +101,9 @@ footer p {
     line-height: 28px;
     color:#FFFFFF;
     margin: 27px auto 17px;
+    text-align: center;
+    
+
     
 }
 
