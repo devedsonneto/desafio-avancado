@@ -1,14 +1,17 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     background-color: #2C2B3D;
     min-height: 100vh;
+    border: 1px solid;
+    
+    
 }
 
 .page {
-    width: 1350px;
-    height: 650px;
+    
+    
     margin: 0px auto;
-    border: 1px solid red;
+    
     }
 
 nav {
@@ -18,7 +21,7 @@ nav {
     width: 1000px;
     height: 30px;
     margin: 70px auto 101px;
-    border: 1px solid red   ;
+   
     }
 
 li {
@@ -40,7 +43,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    
     width: 1000px;
     height: 283px;
     margin: 0 auto;
@@ -81,16 +84,18 @@ p span {
 .line {
     border: 1px solid #00BFA6;
     width: 568px;
-    margin: 50px auto 27px;
+    margin: 50px auto 8px;
     align-items: center;
     
 }
 
 footer {
-    border: 1px solid red;
+    
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    bottom: 0;
+    
     
 }
 
@@ -100,16 +105,19 @@ footer p {
     size: 14px;
     line-height: 28px;
     color:#FFFFFF;
-    margin: 27px auto 17px;
+    margin: 40px auto 17px;
     text-align: center;
+    
     
 
     
 }
 
 #cadeado {
+    position: absolute;
+    left: 6px;
     
         }
 
 
-
+a
